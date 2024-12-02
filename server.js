@@ -1019,7 +1019,7 @@ app.post('/generateMail', async (req, res) => {
         secure: true, //ssl
         auth: {
             user: "lapropositum@zohomail.eu",
-            pass: "telemarkVann100",
+            pass: "***",
         },
         });
 
