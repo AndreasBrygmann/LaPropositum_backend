@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000; // Velger port applikasjonen kjører på
 app.use(cors(), bodyParser.json());
 
 // MongoDB tilkoblingslenke
-mongoose.connect('mongodb+srv://123abc:abc123!@bop3000.jed1b22.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('', { // Removed
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
